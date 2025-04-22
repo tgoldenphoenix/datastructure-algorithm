@@ -1,0 +1,12 @@
+{
+  "name": "data-structure-algorithm",
+  "version": "1.0.0",
+  "description": "Practice",
+  "main": "symmetric-difference.js",
+  "scripts": {
+    "start": "node symmetric-difference.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "an hao",
+  "license": "ISC"
+}
