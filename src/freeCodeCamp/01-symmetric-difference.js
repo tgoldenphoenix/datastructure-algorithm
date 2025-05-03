@@ -1,3 +1,5 @@
+// review count: 01
+
 function symDiff(arr1, arr2) {
   const output = [];
 

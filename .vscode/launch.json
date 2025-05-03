@@ -11,7 +11,7 @@
       "skipFiles": [
         "<node_internals>/**"
       ],
-      "program": "${workspaceFolder}/src/02-inventory-update.js"
+      "program": "${workspaceFolder}/src/playground.js"
     },
     {
       "type": "node",

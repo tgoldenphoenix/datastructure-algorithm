@@ -1,5 +1,14 @@
 # Data Structure & Algorithm
 
-## Symmetric Difference
+## Description
 
-The [argument object](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Functions/arguments) do NOT exist in arrow functions.
+My repo to learn and practice Data Structures, Algorithms and Vanilla JS
+
+## What's inside?
+
+Sorting Algorithms:
+
+- Bubble sort
+- Selection sort
+
+[freeCodeCamp's Coding Interview challenges](https://www.freecodecamp.org/learn/coding-interview-prep)
