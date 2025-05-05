@@ -1,5 +1,9 @@
 # Data Structure & Algorithm
 
+## TODO
+
+quick sort, merge sort
+
 ## Description
 
 My repo to learn and practice Data Structures, Algorithms and Vanilla JS

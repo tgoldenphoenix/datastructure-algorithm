@@ -7,7 +7,7 @@
     {
       "type": "node",
       "request": "launch",
-      "name": "Inventory Update",
+      "name": "Playground",
       "skipFiles": [
         "<node_internals>/**"
       ],
@@ -16,11 +16,20 @@
     {
       "type": "node",
       "request": "launch",
-      "name": "No Repeats Please",
+      "name": "free Code Camp",
       "skipFiles": [
         "<node_internals>/**"
       ],
       "program": "${workspaceFolder}/src/freeCodeCamp/03-no-repeats-please.js"
+    },
+    {
+      "type": "node",
+      "request": "launch",
+      "name": "sorting",
+      "skipFiles": [
+        "<node_internals>/**"
+      ],
+      "program": "${workspaceFolder}/src/algorithms/sorting/insertion-sort.js"
     }
   ]
 }
