@@ -29,7 +29,7 @@
       "skipFiles": [
         "<node_internals>/**"
       ],
-      "program": "${workspaceFolder}/src/algorithms/sorting/insertion-sort.js"
+      "program": "${workspaceFolder}/src/algorithms/sorting/bubble-sort.js"
     }
   ]
 }

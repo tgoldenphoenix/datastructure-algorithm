@@ -3,6 +3,9 @@
 
 // Input: nums = [29,10,14,37,14]  ----->>>>>  Output: [10,14,14,29,37]
 
+// Time Complexity = O(n^2)
+// Space Complexity = O(1)
+
 const selectionSort = (arr) => {
   const n = arr.length;
   for (let i = 0; i < n - 1; i++) {
@@ -23,6 +26,3 @@ const selectionSort = (arr) => {
 };
 
 console.log(selectionSort([29, 10, 14, 37, 14]));
-
-// Time Complexity = O(n^2)
-// Space Complexity = O(1)
