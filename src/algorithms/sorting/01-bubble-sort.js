@@ -1,12 +1,4 @@
-// Ques 1: Implement Bubble Sort in JavaScript
-// Write a function to sort the given array nums in ascending order (nhỏ đến lớn).
-
-// Input: nums = [29,10,14,37,14] ----->>>>>  Output: [10,14,14,29,37]
-
-// Best Time Complexity = O(n) or O(2n)
-// Worst Time Complexity = O(n^2)
-// Average Time Complexity = O(n^2)
-
+// Time Complexity = O(n^2)
 // Space Complexity = O(1)
 
 const bubbleSort = (arr) => {
