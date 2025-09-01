@@ -5,31 +5,22 @@
   "version": "0.2.0",
   "configurations": [ 
     {
-      "type": "node",
-      "request": "launch",
-      "name": "Playground",
+      "name": "Attach by process ID",
+      "processId": "${command:PickProcess}",
+      "request": "attach",
       "skipFiles": [
         "<node_internals>/**"
       ],
-      "program": "${workspaceFolder}/src/playground.js"
+      "type": "node"
     },
     {
       "type": "node",
       "request": "launch",
-      "name": "free Code Camp",
+      "name": "vannilla-js",
       "skipFiles": [
         "<node_internals>/**"
       ],
-      "program": "${workspaceFolder}/src/freeCodeCamp/03-no-repeats-please.js"
+      "program": "${workspaceFolder}/src/vanilla-js/promise-02.js"
     },
-    {
-      "type": "node",
-      "request": "launch",
-      "name": "sorting",
-      "skipFiles": [
-        "<node_internals>/**"
-      ],
-      "program": "${workspaceFolder}/src/algorithms/sorting/bubble-sort.js"
-    }
   ]
 }

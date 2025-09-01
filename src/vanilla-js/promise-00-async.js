@@ -123,3 +123,10 @@ const loadFile = async () => {
     console.error(error)
   }
 }
+
+async function f() {
+  return 1;
+  // return Promise.resolve(1);
+}
+console.log(typeof f()) // object
+f().then(alert); // 1

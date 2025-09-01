@@ -11,7 +11,10 @@ const object = {
 }
 
 const validateBeforeCreate = async () => {
-  return await object.returnPromise();
+  const result = await object.returnPromise();
+  console.log('🐦‍🔥 ~ validateBeforeCreate ~ result:', result)
+  console.log('🐦‍🔥 ~ validateBeforeCreate ~ result:', typeof result)
+  return result;
 }
 
 const createNew = async () => {

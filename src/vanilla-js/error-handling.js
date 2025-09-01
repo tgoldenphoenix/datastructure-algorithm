@@ -25,3 +25,8 @@ try {
 } catch (err) {
   alert( "JSON Error: " + err.message ); // JSON Error: Incomplete data: no name
 }
+
+// ==============
+console.log('before error')
+kkkkk; // ReferenceError: kkkkk is not defined
+console.log('after error')
